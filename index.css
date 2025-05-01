@@ -1,0 +1,454 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.header
+{
+    width: 100%;
+    /* width: 100vw; */
+    height: 100vh;
+    /* min-height: 500px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    background-image: url(Images/pexels-lumn-322207.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.logo-menu
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo
+
+{
+    width: 50%;
+    height: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.logo span
+{
+    color:lightblue;
+}
+.logo h1
+{
+    color: white;
+    font-style: italic;
+}
+.logo img
+{
+    width: 200px;
+     height: 60px;
+}
+.menu
+{
+    width: 50%;
+    height: 50px;
+    /* border: 2px solid black; */
+}
+.menu ul
+{
+    padding-top: 10px;
+   
+}
+.menu a
+{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* .menu a:hover
+{
+    width: 20px;
+    height: 10px;
+    /* background-color:rgb(204, 224, 224); */
+    /* background-color: black; */
+    /* color: white; */
+/* } */
+
+.dropbtn
+ {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 16px;
+    /* font-size: 16px; */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    /* font-weight: 200; */
+    font-style: italic;
+    /* font-size:20px; */
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .dropdown 
+  {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color:cyan; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0.2,0.2);
+    z-index: 1;
+    font-style: italic;
+    font-size: x-large;
+  }
+  
+  
+  .dropdown-content a
+   {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  /* .dropdown-content a:hover 
+  {
+    background-color: black;
+  } */
+  
+  .dropdown:hover .dropdown-content
+   {
+    display: block;
+    
+  }
+  
+  
+  /* .dropdown:hover .dropbtn 
+  {
+     background-color: #3e8e41; 
+  } */
+
+  
+.text
+{
+    width: 50%;
+    height: 200px;
+    /* border: 2px solid black; */
+    color: white;
+    margin-top: 200px;
+    margin-left: 300px;
+    text-align: center;
+    padding: 10px;
+}
+.text h2
+{
+    margin-top: 20px;
+}
+.text-1
+{
+    padding-top: 20px;
+}
+.text button
+{
+    width: 10%;
+    height: 30px;
+    margin-top: 5px;
+    background-color: maroon;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.text button:hover
+{
+    background-color: black;
+    color: white;
+}
+.about
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.photo
+{
+    /* width: 40%;
+    height: 400px; */
+    flex-basis: 35%;
+    /* border: 2px solid black; */
+
+}
+.photo img
+{
+    width: 100%;
+    height: 500px;
+}
+.text1
+{
+    flex-basis: 61%;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding-top: 150px;
+    font-style: italic;
+}
+
+.text1 p
+{
+    margin-top: 10px;
+}
+.text1 button
+{
+    width: 20%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: pink;
+    color: white;
+}
+.fashion
+{
+    width: 100%;
+    height: 470px;
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.fashion a
+{
+    color: black;
+    text-decoration: none;
+}
+.box
+{
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column ;
+    /* align-items: center; */
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.box1
+{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: pink;
+    color: black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px ;
+    
+}
+.box button
+{
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: pink;
+    color: black;
+    margin-left: 150px;
+    
+
+}
+.image img
+{
+    width: 100%; 
+    height: 350px; 
+    margin-top: 10px;
+}
+.footer
+{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    background-color: pink;
+    color: black;
+}
+.footer .about1
+{
+    flex-basis: 21%;
+    padding: 5;
+    /* border: 1px solid black; */
+    
+   
+}
+.footer .about1 h2
+{
+   padding: 10px;
+   color: black;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer .about1 h2::before
+{
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer .about1 a
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+}
+
+.footer .about1 .social i
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.footer .about1 .social i:hover
+{
+    background-color: black;
+}
+.footer a{
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+    display: block;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+/* Your existing CSS */
+
+/* Regular styles here */
+
+/* Media query for screens smaller than 600px */
+/* Regular styles here */
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .header {
+        height: auto; /* Adjusting height to fit content */
+    }
+    .logo-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 100%;
+        justify-content: center;
+        padding: 10px 10;
+    }
+    .menu
+    {
+        width: 100%;
+        justify-content: center;
+    }
+    .meanu ul{
+        padding: 0;
+    }
+    .menu a{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .text {
+        margin: 20px auto; /* Centering text */
+        width: 80%; /* Adjusting width */
+        margin-top: 100px; /* Adjusting top margin */
+    }
+
+    .about {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Adjusting height to fit content */
+    }
+
+    .photo {
+        flex-basis: 100%; /* Full width for image */
+    }
+
+    .text1 {
+        flex-basis: 100%; /* Full width for text */
+        padding: 20px; /* Adding padding */
+    }
+
+    .photoshopy {
+        flex-direction: column; /* Stack boxes vertically */
+        height: auto; /* Adjusting height to fit content */
+    }
+
+    .box {
+        flex-basis: 100%; /* Full width for each box */
+        margin-bottom: 20px; /* Adding margin between boxes */
+    }
+
+    .image img {
+        height: auto; /* Adjusting image height */
+    }
+
+    .footer {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Adjusting height to fit content */
+    }
+
+    .footer .about1 {
+        flex-basis: 100%; /* Full width for each section */
+        margin-bottom: 20px; /* Adding margin between sections */
+    }
+}
